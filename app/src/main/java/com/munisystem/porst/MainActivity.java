@@ -11,7 +11,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent intent = new Intent(this, QRReaderActivity.class);
+//        Intent intent = new Intent(this, QRReaderActivity.class);
+//        startActivity(intent);
+        Intent intent = new Intent(this, NFCReaderActivity.class);
         startActivity(intent);
     }
 }
